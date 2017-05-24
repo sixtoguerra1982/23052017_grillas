@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      *{
+        margin: 0px;
+      }
+      .row{
+        clear: both;
+      }
+      .cell{
+        float: left;
+        width: 33.3%;
+      }
+      .cabezera{
+        background-color: green;
+        color: white;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+      }
+      .ajustar-imagen{
+        max-width: 100%;
+      }
+      @media (max-width: 480px) {
+          .row{
+                clear: both;
+              }
+          .cell{
+            display: inline-block;
+            width: 100%;
+          }
+          .cabezera{
+            background-color: green;
+            color: white;
+            text-align: center;
+            height: 100px;
+            width: 100%;
+          }
+          .ajustar-imagen{
+            max-width: 100%;
+          }
+      }
+    
+    </style>
+  </head>
+  <body>
+    <nav class="cabezera">
+      <h1>HOLA ESTE ES UN EJERCICIO DE GRILLA</h1>
+    </nav>
+    <div class="row">
+      <div class="cell">
+        <img src="accesorios-perros.jpg" class="ajustar-imagen">
+        <p> UNO Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <div class="cell">
+        <img src="accesorios-perros.jpg" class="ajustar-imagen">
+        <p> DOS Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+
+      <div class="cell">
+        <img src="accesorios-perros.jpg" class="ajustar-imagen">
+        <p> TRES Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
